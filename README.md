@@ -32,7 +32,6 @@ See additional documentation in the documentation folder. :
 
 ![CircleCI Pipeline](./docs/images/circleci.png)
 
-added secrets here
 
 ![CircleCI Pipeline environment variables](./docs/images/circleci2.png)
 
