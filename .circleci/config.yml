@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.1.0
-  aws-cli: circleci/aws-cli@2.0.2
+  node: circleci/node@5.0.0
+  aws-cli: circleci/aws-cli@2.1.0
 jobs:
   build:
     docker:
@@ -17,5 +17,5 @@ jobs:
           name: Front-End Build
           command: npm run frontend:build
       - run:
-          name: Deploy Front-End
+          name: Front-End Deploy
           command: npm run frontend:deploy
