@@ -32,8 +32,11 @@ See additional documentation in the documentation folder. :
 
 ![CircleCI Pipeline](./docs/images/circleci.png)
 
+![CircleCI Pipeline](./docs/images/circleci2.png)
 
-![CircleCI Pipeline environment variables](./docs/images/circleci2.png)
+![CircleCI Pipeline only pushes to the main/master branch would trigger build](./docs/images/filtermainmaster.png)
+
+![CircleCI Pipeline environment variables](./docs/images/environmentvariables.png)
 
 > **Include screenshots of the configuration page of your AWS services:**
 
